@@ -3,23 +3,26 @@
   .container {  
     .row  {  
       height: 100vh;
+      
       .left {
         display: flex;
+        justify-content: center;
         .content {
           align-self: center;
-          height: 50vh;
-          width: 50vw;
           background-color: rgb(208, 247, 19);
+          height: 50vh;
+          width: 30vw;
         }
+        
       }
       
       .right {
         display: flex;
-        justify-content: space-evenly;
         flex-direction: column;
+        justify-content: space-evenly;
         .side {
           height: 20vh;
-          width: 20vh;
+          width: 30vw;
         }
         .info {
           align-self: center;
