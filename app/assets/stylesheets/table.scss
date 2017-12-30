@@ -1,0 +1,40 @@
+.site {
+  background-color: rgb(78, 75, 67);
+  .container {  
+    .row  {  
+      height: 100vh;
+      .left {
+        display: flex;
+        .content {
+          align-self: center;
+          height: 50vh;
+          width: 50vw;
+          background-color: rgb(208, 247, 19);
+        }
+      }
+      
+      .right {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        .side {
+          height: 20vh;
+          width: 20vh;
+        }
+        .info {
+          align-self: center;
+          background-color: rgb(249, 55, 162);
+        }
+        .past {
+          align-self: center;
+          background-color: rgb(35, 224, 60);
+        }
+        .questions {
+          align-self: center;
+          background-color: rgb(15, 89, 232);
+
+        }
+      }
+    }
+  }
+}
